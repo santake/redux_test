@@ -2,7 +2,6 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const KEY_STORAGE = "user";
 
-
 // init data:
 const initialUser = localStorage.getItem(KEY_STORAGE) ? JSON.parse(localStorage.getItem(KEY_STORAGE)) : null;
 
